@@ -1,6 +1,6 @@
 # MakergearE3D
 
-This project was creted by Jim Horwitz, an intern at the 3D Printing Company MakerGear.  
+This project was creted by Jim Horwitz, an intern at MakerGear.  
 
 Objectives  
  -- High temperature upgrade kit  
