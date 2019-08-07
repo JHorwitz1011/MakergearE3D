@@ -60,7 +60,7 @@ temp sensor 1 pin changed to match signal pin on analog pins input.
 
 **Hardware Changes**
 
-REFER TO Analog pins.png
+Refer to Analog pins.png
 
         Blue circle - Analog Pins location on RAMBo 1.3 Board
 
@@ -68,7 +68,7 @@ REFER TO Analog pins.png
         Black Wire - GND of Amplifier Board
         Orange Wire - Vcc of Amplifier Board
 
-REFER TO Heater Pins.png 
+Refer to Heater Pins.png 
 
         Heater 1 Screw Terminal - replaced with E3D Heater Cartridge wires (glossy black in the picture above)
         Third terminal from the bottom
