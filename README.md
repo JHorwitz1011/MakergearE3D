@@ -1,5 +1,11 @@
 # MakergearE3D
 
+This project was creted by Jim Horwitz, an intern at the 3D Printing Company MakerGear.  
+
+Objectives  
+ -- High temperature upgrade kit  
+ -- E3D upgrade kit  
+
 **Components**
 
 Heater - https://e3d-online.com/high-temperature-heater-cartridges  
