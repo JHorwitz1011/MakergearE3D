@@ -70,32 +70,29 @@ Refer to Heater Pins.png
 
 
 **GCode Changes**
-http://marlinfw.org/meta/gcode/
-	These changes save to the EEPROM of the RAMBo board, and are not changed when updating the firmware of the board.  
+http://marlinfw.org/meta/gcode/  
+These changes save to the EEPROM of the RAMBo board, and are not changed when updating the firmware of the board.  
 
 Offset between nozzle - M218 command  
 T1 specifies extruder head, X/Y/Z specifies axis.  
 For vertical adjustments, use Z.  
 -33.26 worked with an M3 with a normal T0, and a modded T1 with Ryan’s 3D printed mount  
-Negative values move the bed further from the hotend (down).   
+Negative values move the bed further from the hotend (down).  
 
-Printout from M503 
-
+Printout from M503  
         M218 T1 X252.00 Y0.00 Z-33.26
 
-http://marlinfw.org/docs/gcode/M218.html
+http://marlinfw.org/docs/gcode/M218.html  
 
-Autotune PID - M303 
-
+Autotune PID - M303  
         M303 E1 S265 C10
 
 This will run 10 cycles of PID autotuning based on 265 deg. C.  
 Copy the PID settings into M301, using P, I, and D before each number to change their respective values.  
 
+Printout from M503  
 
+        M301 P15.33 I1.39 D42.38 C120.00 L20
 
-Printout from M503
-M301 P15.33 I1.39 D42.38 C120.00 L20
-
-http://marlinfw.org/docs/gcode/M303.html
+http://marlinfw.org/docs/gcode/M303.html  
 http://marlinfw.org/docs/gcode/M301.html
