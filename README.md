@@ -83,7 +83,8 @@ For vertical adjustments, use Z.
 -33.26 worked with an M3 with a normal T0, and a modded T1 with Ryan’s 3D printed mount
 Negative values move the bed further from the hotend (down).
 
-Printout from M503
+Printout from M503 
+
         M218 T1 X252.00 Y0.00 Z-33.26
 
 http://marlinfw.org/docs/gcode/M218.html
