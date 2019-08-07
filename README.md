@@ -1,6 +1,6 @@
 # MakergearE3D
 
-Components
+**Components**
 
 Heater - https://e3d-online.com/high-temperature-heater-cartridges
 65W @ 24V
@@ -43,7 +43,7 @@ Alternative groove mount: https://e3d-online.com/v6-heatsink-1-75mm-universal
 
 
 
-Firmware Changes -  attached in Marlin firmware
+**Firmware Changes** -  attached in Marlin firmware
 
 Configuration.h
 
@@ -58,7 +58,7 @@ temp sensor 1 pin changed to match signal pin on analog pins input.
 
 
 
-Hardware Changes
+**Hardware Changes**
 
 REFER TO Analog pins.png
 
@@ -73,7 +73,9 @@ REFER TO Heater Pins.png
         Heater 1 Screw Terminal - replaced with E3D Heater Cartridge wires (glossy black in the picture above)
         Third terminal from the bottom
 
-GCode Changes
+
+
+**GCode Changes**
 http://marlinfw.org/meta/gcode/
 	These changes save to the EEPROM of the RAMBo board, and are not changed when updating the firmware of the board.  
 
