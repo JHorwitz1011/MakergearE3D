@@ -80,11 +80,13 @@ For vertical adjustments, use Z.
 Negative values move the bed further from the hotend (down).  
 
 Printout from M503  
+
         M218 T1 X252.00 Y0.00 Z-33.26
 
 http://marlinfw.org/docs/gcode/M218.html  
 
 Autotune PID - M303  
+
         M303 E1 S265 C10
 
 This will run 10 cycles of PID autotuning based on 265 deg. C.  
