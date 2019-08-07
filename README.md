@@ -88,7 +88,8 @@ Printout from M503
 
 http://marlinfw.org/docs/gcode/M218.html
 
-Autotune PID - M303
+Autotune PID - M303 
+
         M303 E1 S265 C10
 
 This will run 10 cycles of PID autotuning based on 265 deg. C.
